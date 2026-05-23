@@ -264,4 +264,4 @@ Upvote issues (👍) to influence priority. We tag issues with:
 A 3,800-word breakdown of how Routiq works under the hood — the pipeline architecture, caching algorithms, complexity routing, cost recording, 22 security fixes, and what I got wrong on the first try.
 
 ---
-**Built by [Yash Bafna](https://linkedin.com/in/yashbafna)**  
+**Built by [Yash Bafna](https://www.linkedin.com/in/yash-bafna/)**  
