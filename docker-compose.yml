@@ -1,6 +1,6 @@
 services:
   routiq:
-    build: .
+    image: ghcr.io/yashbafna/routiq:latest
     ports:
       - "8001:8001"
     depends_on:
