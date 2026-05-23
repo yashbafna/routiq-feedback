@@ -256,5 +256,12 @@ Upvote issues (👍) to influence priority. We tag issues with:
 - `not-planned` — with an explanation why
 
 ---
+## Learn More
 
-*Routiq is closed source. This repo contains no implementation code — only feedback tracking.*
+**📖 Technical deep dive:**  
+[Building Routiq: a local-first LLM gateway that proves its savings](https://yashbafna.hashnode.dev/building-routiq-local-first-llm-gateway#the-pipeline-end-to-end)
+
+A 3,800-word breakdown of how Routiq works under the hood — the pipeline architecture, caching algorithms, complexity routing, cost recording, 22 security fixes, and what I got wrong on the first try.
+
+---
+**Built by [Yash Bafna](https://linkedin.com/in/yashbafna)**  
