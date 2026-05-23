@@ -1,0 +1,26 @@
+services:
+  routiq:
+    build: .
+    ports:
+      - "8001:8001"
+    depends_on:
+      - redis
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379
+      SQLITE_PATH: /app/data/routiq.db
+      MODELS_YAML_PATH: /app/models.yml
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  redis_data:
